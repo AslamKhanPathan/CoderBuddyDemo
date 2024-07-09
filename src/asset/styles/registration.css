@@ -1,0 +1,39 @@
+
+.wrapper-container {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa; /* Added back for background color */
+  }
+  
+  .main-form-wrapper {
+    padding: 10px;
+  }
+  
+  .form-wrapper {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .btn-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .btn-wrapper button {
+    width: calc(33.33% - 0.5rem); 
+    margin-bottom: 0.5rem;
+  }
+  
+span{
+    color: red;
+}
